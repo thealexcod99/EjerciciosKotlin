@@ -1,0 +1,1 @@
+//Crea un programa que indique la posición de la primera ocurrencia de una palabra en unfichero de texto.
