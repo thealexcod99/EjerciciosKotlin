@@ -1,0 +1,3 @@
+En este fichero hay diferentes letras
+se intentara buscar el numero de repeticiones que tiene el caracter a buscar
+YA SEA EN MAYUSCULAS O EN MINUSCULAS
