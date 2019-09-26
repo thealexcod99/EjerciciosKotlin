@@ -4,4 +4,12 @@
 
 fun main() {
 
+    var listaPremios = ArrayList<Int>(100)
+
+    while (listaPremios.size < 100) {
+        var numero = (Math.random() * 1000 + 1).toInt()
+        if (!(numero in listaPremios))
+            listaPremios.add(numero)
+    }
+    println(listaPremios)
 }
