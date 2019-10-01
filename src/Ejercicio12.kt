@@ -19,7 +19,7 @@ fun contarCaracter(list: List<String>, caracter: Char): Int {
 
 fun main() {
 
-    var lineas: List<String> = File("D:\\Desktop\\DAM\\IntelliJproyects\\EjerciciosKotlin\\src\\buscarCaracter.txt").readLines()
+    var lineas: List<String> = File("/home/matinal/AASMatinal/IdeaProjects/desarrolloDeInterfaces/EjerciciosKotlin/src/buscarCaracter.txt").readLines()
     val caracter = 'e'
     println(contarCaracter(lineas, caracter))
 

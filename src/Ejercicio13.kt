@@ -23,7 +23,7 @@ fun encontrarOcurrencia(list: List<String>, ocu: String) : String {
 }
 
 fun main() {
-    var lineas: List<String> = File("D:\\Desktop\\DAM\\IntelliJproyects\\EjerciciosKotlin\\src\\buscarCaracter.txt").readLines()
+    var lineas: List<String> = File("/home/matinal/AASMatinal/IdeaProjects/desarrolloDeInterfaces/EjerciciosKotlin/src/buscarCaracter.txt").readLines()
 
     println(encontrarOcurrencia(lineas, "buscar"))
 
